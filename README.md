@@ -56,17 +56,16 @@ The table below lists all the tools and supplies you’ll need to build a JuiceB
 |  | Phillips-head screwdriver(s) | 1-2 | For screwing 4-40 and mounting screws. |
 |  | Scissors/blade/saw |  | For cutting the squeeze bottle and tubing. |
 
-**Instructions for ordering the PCB board:**
+> [!NOTE]
+> **Instructions for ordering the PCB board:**
+> - You can order the PCB board from [JLCPCB](https://jlcpcb.com/) (cheap and fast, highly recommend) or similar vendors of your choice. To do so, upload the Gerber files *(juicebox_gerber)* onto the vendor’s website. You can customize the board settings (e.g. color, thickness, materials, etc.) if you want to, but most likely you don’t need to change anything.
+> - If you dislike soldering or want to save some time, you can also ask the vendor to pre-assemble some components (e.g. the voltage regulator, transistor, diode, and resistors) on the PCB board. To do so, add “PCB Assembly” to your order. Upload the Bill of Materials file *(juicebox_bom.csv)* and Component Placement List file *(juicebox_cpl.csv)* when prompted. Each vendor may have slightly different requirements for these two files. If you’re ordering from JLCPCB, you can use the files in this repository directly; otherwise, you may need to tweak the format. After the system processes these files, you can confirm the choice of materials and their positions on the board.
 
-You can order the PCB board from [JLCPCB](https://jlcpcb.com/) (cheap and fast, highly recommend) or similar vendors of your choice. To do so, upload the Gerber files *(juicebox_gerber)* onto the vendor’s website. You can customize the board settings (e.g. color, thickness, materials, etc.) if you want to, but most likely you don’t need to change anything.
-
-If you dislike soldering or want to save some time, you can also ask the vendor to pre-assemble some components (e.g. the voltage regulator, transistor, diode, and resistors) on the PCB board. To do so, add “PCB Assembly” to your order. Upload the Bill of Materials file *(juicebox_bom.csv)* and Component Placement List file *(juicebox_cpl.csv)* when prompted. Each vendor may have slightly different requirements for these two files. If you’re ordering from JLCPCB, you can use the files in this repository directly; otherwise, you may need to tweak the format. After the system processes these files, you can confirm the choice of materials and their positions on the board.
-
-**Instructions for 3D printing:**
-
-- Material: There is no strict requirement for the printing material, but you should make sure it’s tappable and water-resistant. I used grey resin and it worked.
-- Resolution: I used 0.05mm and it worked well — there’s no need to go finer than that.
-- There is also a mirrored version of the control box, where the locations of the ports (Power, Auto, Maunal) and the drain button are flipped.
+> [!NOTE]
+> **Instructions for 3D printing:**
+> - Material: There is no strict requirement for the printing material, but you should make sure it’s tappable and water-resistant. I used grey resin and it worked.
+> - Resolution: I used 0.05mm and it worked well — there’s no need to go finer than that.
+> - There is also a mirrored version of the control box where the locations of the ports and the drain button are flipped. You can decide which version to use depending how your space is set up.
 
 ### 1. Assemble the control box
 
