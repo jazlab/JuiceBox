@@ -1,4 +1,4 @@
-# :beverage_box: JuiceBox: a liquid reward delivery system
+# :beverage_box:JuiceBox: a liquid reward delivery system
 
 JuiceBox is a liquid reward delivery system designed specifically for animal research. The JuiceBox system consists of:
 
@@ -13,14 +13,12 @@ JuiceBox is a liquid reward delivery system designed specifically for animal res
 
 ![Cover photo](Images/juicebox-cover-photo.png)
 
----
 ## Table of Contents
 - [Building & setting up your own JuiceBox](#building--setting-up-your-own-juicebox)
 - [Using JuiceBox](#using-juicebox)
 - [Circuit diagram](#circuit-diagram)
 - [Latency test](#latency-test)
 - [Contact](#contact)
----
 
 ## Building & setting up your own JuiceBox
 
