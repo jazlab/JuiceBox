@@ -11,6 +11,8 @@ JuiceBox is a liquid reward delivery system designed specifically for animal res
     - enables easy bottle removal, and
     - features a tube holder to keep your hands free.
 
+![Cover photo](Images/juicebox-cover-photo.png)
+
 ## Table of Contents
 - [Building & setting up your own JuiceBox](#building--setting-up-your-own-juicebox)
 - [Using JuiceBox](#using-juicebox)
