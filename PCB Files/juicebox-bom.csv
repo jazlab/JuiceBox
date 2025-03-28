@@ -1,0 +1,6 @@
+Comment,Designator,Footprint,JCLPCB Part #
+L7805,U1,TO-220D_STM,C111887
+10kOhm,R1,R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal,C410695
+TIP122,Q1,TO-220-3_Vertical,C16283
+1kOhm,R2,R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal,C713997
+1N4007,D1,D_DO-41_SOD81_P10.16mm_Horizontal,C19357
