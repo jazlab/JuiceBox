@@ -1,4 +1,4 @@
-# JuiceBox: a liquid reward delivery system
+# :beverage_box: JuiceBox: a liquid reward delivery system
 
 JuiceBox is a liquid reward delivery system designed specifically for animal research. The JuiceBox system consists of:
 
@@ -13,12 +13,14 @@ JuiceBox is a liquid reward delivery system designed specifically for animal res
 
 ![Cover photo](Images/juicebox-cover-photo.png)
 
+---
 ## Table of Contents
 - [Building & setting up your own JuiceBox](#building--setting-up-your-own-juicebox)
 - [Using JuiceBox](#using-juicebox)
 - [Circuit diagram](#circuit-diagram)
 - [Latency test](#latency-test)
 - [Contact](#contact)
+---
 
 ## Building & setting up your own JuiceBox
 
@@ -92,18 +94,23 @@ If you dislike soldering or want to save some time, you can also ask the vendor 
     - 2x BNC female connectors
     - 1x push button
 8. Solder the other end of the wires onto the corresponding pads on the PCB board.
-    - Note that the DC power jack is asymmetric — make sure to solder the positive end to “24V” and the negative end to “GND.” For the example product given above, the longer tail corresponds to GND.
-    - If you are using a push button with LED, make sure to differentiate the wires for the button and the wires for the LED. The LED should have a positive and a negative end. If you are using a drain button without LED, simply short the two pads labelled “LED”.
-9.  Solder a DC power male plug to the solenoid valve wires. The valve is symmetric, so it does not matter which wire gets connected to which end of the power plug.
+   > [!NOTE]
+   > - The DC power jack is asymmetric — make sure to solder the positive end to “24V” and the negative end to “GND.” For the example product given above, the longer tail corresponds to GND.
+    > - If you are using a push button with LED, make sure to differentiate the wires for the button and the wires for the LED. The LED should have a positive and a negative end. If you are using a drain button without LED, simply short the two pads labelled “LED”.
+9.  Solder a DC power male plug to the solenoid valve wires.
+    > [!NOTE]
+    > The valve is symmetric, so it does not matter which wire gets connected to which end of the power plug.
 10. Set the desired drain duration and mode on the timer relay module:
     1. Connect the DC power cable to the box. The relay module should turn on.
     2. Long press “SET” for 3 seconds — the screen should show something like “P1.1.” Now, use the “UP” and “DOWN” buttons to navigate to P1.3. 
-        - In mode P1.3, when the drain button is pressed, the relay turns on for a set duration (”OP period”) and then turns off. Re-triggering the module within the OP period will disconnect the relay and reset the module. This means if the drain button is pressed again before time is up, the draining will stop immediately and the timer resets.
+        > [!NOTE]
+        > In mode P1.3, when the drain button is pressed, the relay turns on for a set duration (”OP period”) and then turns off. Re-triggering the module within the OP period will disconnect the relay and reset the module. This means if the drain button is pressed again before time is up, the draining will stop immediately and the timer resets.
     3. Once you are at the correct mode (P1.3), press “SET” again — the screen will flash “OP.” This is the maximum duration for which the valve will stay open. Press “STOP” until the screen shows “0.0.0.” — this shows the time in minutes. Other displays show time in seconds (e.g. 003. = 3 seconds). Use “UP” and “DOWN” to set the desired duration. For example, you can set the duration to 3 minutes (“0.0.3.”), which is typically enough for a full bottle of liquid to drain through.
     4. Once you’re done, long press “SET” for 3 seconds until the screen flashes “P1.3” and returns to the main display (“000”). Now the relay module is all set!
     5. It is suggested to turn the relay on sleep mode, so the display won’t stay on all the time. If you long press “STOP” for 2 seconds, the screen should flash either “O-d” (normal mode) or “C-P” (sleep mode) before returning to the main interface (“000”). This tells you which mode is currently active. Long press "STOP" again to toggle between these modes.
-        - C-P (sleeping mode): If the relay is idle for 5 minutes, the display will turn off automatically. The program will keep working.
-        - O-d (normal mode): Display is always on.
+        > [!NOTE]
+        > - C-P (sleeping mode): If the relay is idle for 5 minutes, the display will turn off automatically. The program will keep working.
+        > - O-d (normal mode): Display is always on.
     6. If you are confused or want to learn more about the timer relay module, you can refer to [this webpage](https://www.hnhcart.com/blogs/learn/all-you-need-to-know-about-relay-timer-module?srsltid=AfmBOoqXPmc-TtnOS80VKcII2ll3dJII4rWGqjZ0Q2o4tU3tMAlhPOWK).
 11. You’re almost there! Now let’s do a sanity test:
     1. Connect the the valve and any auto/manual inputs you may want to test.
@@ -120,9 +127,9 @@ The JuiceBox system can be mounted in various ways, depending on how your space 
 1. Cut the bottom of the squeeze bottle and trim to desired length. Cut or remove the tube inside the bottle, if any. 
 2. Cut the tip of the squeeze bottle for optimal flow rate.
 3. Place the bottle in the bottle holder.
-4. Cut the plastic tubing to desired lengths. Connect one tube from the tip of the bottle to the valve, and another from the valve to wherever the liquid will be dispensed. Make sure the tubes fit snugly without any leakage.
+4. Cut the plastic tubing to desired lengths. Connect one tube from the tip of the bottle to the valve, and another from the valve to wherever the liquid will be dispensed.
 
-### Yay! Now you have your own JuiceBox :-)
+### Yay! Now you have your own JuiceBox :tada:
 
 ## Using JuiceBox
 
@@ -134,7 +141,7 @@ The JuiceBox system can be mounted in various ways, depending on how your space 
 ### Timed-draining
 
 - The “Drain” button allows you to drain or flush the juice bottle and tube after use. Its timed-draining feature prevents the valve from overheating during this process.
-- When the drain button is pressed, the valve will open for a set duration and then close automatically. If the button is pressed again before the time is up, the valve will be closed immediately. The LED light on the button turns on whenever the drain is on (this does not apply when the valve is opened by auto/manual inputs). You can change the maximum draining duration by configuring the relay module inside the control box (see relevant instructions for building the control box).
+- When the drain button is pressed, the valve will open for a set duration and then close automatically. If the button is pressed again before the time is up, the valve will be closed immediately. The LED light on the button turns on whenever the drain is on (this does not apply when the valve is opened by auto/manual inputs). You can change the maximum draining duration by configuring the relay module inside the control box (see relevant instructions above).
 
 ## Circuit diagram
 
@@ -150,11 +157,16 @@ If you want to know the delay between TTL input signal to liquid reward delivery
 
 Here is how to perform the test:
 
-1. After setting up the JuiceBox, fill the juice bottle and tube with saline. “Prime” the saline by opening the valve until the saline is coming out of the juice tube.
-2. Create a circuit as shown in the schematic above: one end of the wire is dipped in saline in the juice bottle, and the other end of the wire is at the tip of the juice tube. Whenever the valve opens in response to a TTL pulse, the saline dispensed from the tube immediately completes the circuit, creating a measurable voltage change. Note that the end of the wire should be a few millimeters into the tip of the juice tube (but not in constant contact with saline). Otherwise, the latency you measure will also include the time it takes for saline to travel to the wire.
-3. Program an Arduino board that sends regular TTL pulses to the JuiceBox, monitors voltage changes from liquid delivery, and measures the time between the signal onset and voltage change (see code below).
-4. Before running the test, it is recommended to cycle the valve several times (at least 5 opens and closes) to prevent the its internal parts from getting stuck due to long periods of inactivity.
-5. Once everything is ready, run the Arduino code for multiple trials and collect the latency data. Then you can calculate the mean latency and standard deviation of your JuiceBox system.
+1. After setting up the JuiceBox, fill the juice bottle and tube with saline. 
+    > [!NOTE]
+    > “Prime” the saline by opening the valve until the saline is coming out of the juice tube.
+2. Program an Arduino board that sends regular TTL pulses to the JuiceBox, monitors voltage changes from liquid delivery, and measures the time between the signal onset and voltage change (see code below).
+3. Create a circuit as shown in the schematic above: one end of the wire is dipped in saline in the juice bottle, and the other end of the wire is at the tip of the juice tube. Whenever the valve opens in response to a TTL pulse, the saline dispensed from the tube immediately completes the circuit, creating a measurable voltage change.
+   > [!NOTE]
+   > the end of the wire should be a few millimeters into the tip of the juice tube (but not in constant contact with saline). Otherwise, the latency you measure will also include the time it takes for saline to travel to the wire.
+4. Run the Arduino code for multiple trials and collect the latency data. Then you can calculate the mean latency and standard deviation of your JuiceBox system.
+    > [!NOTE]
+    > Before running the test, it is recommended to cycle the valve several times (at least 5 opens and closes) to prevent the its internal parts from getting stuck due to long periods of inactivity.
 
 Here is how to program the Arduino board:
 
