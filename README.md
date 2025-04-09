@@ -69,7 +69,7 @@ The table below lists all the tools and supplies you’ll need to build a JuiceB
 
 1. Tap the 12 screw holes on the control box with 4-40 taps. For best result, tap each hole with a taper tap followed by a bottoming tap to make the threads reaches the bottom of the hole.
 
-![photo](Images/1.JPEG | height = 50%)
+<img src=https://github.com/jazlab/JuiceBox/blob/main/Images/1.JPEG height="100">
 
 2. Solder the following parts onto the PCB board (skip this step if your PCB board was pre-assembled):
     - 7805 voltage regulator
@@ -78,11 +78,11 @@ The table below lists all the tools and supplies you’ll need to build a JuiceB
     - 10kΩ resistor
     - 1kΩ resistor
 
-![photo](Images/2.JPEG | height = 50%)
+<img src=https://github.com/jazlab/JuiceBox/blob/main/Images/2.JPEG height="100">
 
 3. Short the power and trigger GND pads on the relay module.
 
-![photo](Images/3.JPEG | height = 50%)
+<img src=https://github.com/jazlab/JuiceBox/blob/main/Images/3.JPEG height="100">
 
 4. Insert and secure wires (of appropriate length) into the following connectors on the relay module:
     - Power
@@ -91,18 +91,18 @@ The table below lists all the tools and supplies you’ll need to build a JuiceB
     - COM
     - NO
 
-![photo](Images/4.JPEG | height = 50%)
+<img src=https://github.com/jazlab/JuiceBox/blob/main/Images/4.JPEG height="100">
 
 5. Secure the PCB board and the relay module inside the box with 4-40 screws. The relay module should be on the top, the PCB board on the bottom.
 
-![photo](Images/5.JPEG | height = 50%)
+<img src=https://github.com/jazlab/JuiceBox/blob/main/Images/5.JPEG height="100">
 
 6. Insert and secure all connectors in the corresponding holes:
     - 2x DC power female jacks: “Power” & “Valve”
     - 2x BNC female connectors: “Auto” & “Manual”
     - 1x push button: “Drain”
 
-![photo](Images/6.JPEG | height = 50%)
+<img src=https://github.com/jazlab/JuiceBox/blob/main/Images/6.JPEG height="100">
 
 7. Solder wires (of appropriate length) onto the following connectors (or, if the connector came with wires, cut and strip the wires to desired length):
     - 2x DC power female jacks
@@ -112,12 +112,12 @@ The table below lists all the tools and supplies you’ll need to build a JuiceB
    - The DC power jack is asymmetric — make sure to solder the positive end to “24V” and the negative end to “GND.” For the example product given above, the longer tail corresponds to GND.
     - If you are using a push button with LED, make sure to differentiate the wires for the button and the wires for the LED. The LED should have a positive and a negative end. If you are using a drain button without LED, simply short the two pads labelled “LED”.
 
-![photo](Images/7.JPEG | height = 50%)
+<img src=https://github.com/jazlab/JuiceBox/blob/main/Images/7.JPEG height="100">
 
 9.  Solder a DC power male plug to the solenoid valve wires.
     - The valve is symmetric, so it does not matter which wire gets connected to which end of the power plug.
 
-![photo](Images/8.JPEG | height = 50%)
+<img src=https://github.com/jazlab/JuiceBox/blob/main/Images/8.JPEG height="100">
 
 10. Set the desired drain duration and mode on the timer relay module:
     1. Connect the DC power cable to the box. The relay module should turn on.
@@ -135,7 +135,7 @@ The table below lists all the tools and supplies you’ll need to build a JuiceB
 12. Now that your control box is working properly, close the lid with 4-40 screws.
 13. Secure the solenoid valve onto the control box with 4-40 screws. You can mount the valve either upright or upside down.
 
-![photo](Images/9.JPEG | height = 50%)
+<img src=https://github.com/jazlab/JuiceBox/blob/main/Images/9.JPEG height="100">
 
 ### 2. Mount the control box and bottle holder
 
