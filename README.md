@@ -70,7 +70,7 @@ The table below lists all the tools and supplies you’ll need to build a JuiceB
 1. Tap the 12 screw holes on the control box with 4-40 taps. For best result, tap each hole with a taper tap followed by a bottoming tap to make the threads reaches the bottom of the hole.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jazlab/JuiceBox/main/Images/1.JPEG" height="200">
+  <img src="https://raw.githubusercontent.com/jazlab/JuiceBox/main/Images/1.JPEG" height="50%">
 </p>
 
 2. Solder the following parts onto the PCB board (skip this step if your PCB board was pre-assembled):
@@ -81,13 +81,13 @@ The table below lists all the tools and supplies you’ll need to build a JuiceB
     - 1kΩ resistor
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jazlab/JuiceBox/main/Images/2.JPEG" height="200">
+  <img src="https://raw.githubusercontent.com/jazlab/JuiceBox/main/Images/2.JPEG" height="50%">
 </p>
 
 3. Short the power and trigger GND pads on the relay module.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jazlab/JuiceBox/main/Images/3.JPEG" height="200">
+  <img src="https://raw.githubusercontent.com/jazlab/JuiceBox/main/Images/3.JPEG" height="50%">
 </p>
 
 4. Insert and secure wires (of appropriate length) into the following connectors on the relay module:
@@ -98,13 +98,13 @@ The table below lists all the tools and supplies you’ll need to build a JuiceB
     - NO
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jazlab/JuiceBox/main/Images/4.JPEG" height="200">
+  <img src="https://raw.githubusercontent.com/jazlab/JuiceBox/main/Images/4.JPEG" height="50%">
 </p>
 
 5. Secure the PCB board and the relay module inside the box with 4-40 screws. The relay module should be on the top, the PCB board on the bottom.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jazlab/JuiceBox/main/Images/5.JPEG" height="200">
+  <img src="https://raw.githubusercontent.com/jazlab/JuiceBox/main/Images/5.JPEG" height="50%">
 </p>
 
 6. Insert and secure all connectors in the corresponding holes:
@@ -113,7 +113,7 @@ The table below lists all the tools and supplies you’ll need to build a JuiceB
     - 1x push button: “Drain”
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jazlab/JuiceBox/main/Images/6.JPEG" height="200">
+  <img src="https://raw.githubusercontent.com/jazlab/JuiceBox/main/Images/6.JPEG" height="50%">
 </p>
 
 7. Solder wires (of appropriate length) onto the following connectors (or, if the connector came with wires, cut and strip the wires to desired length):
@@ -125,14 +125,14 @@ The table below lists all the tools and supplies you’ll need to build a JuiceB
     - If you are using a push button with LED, make sure to differentiate the wires for the button and the wires for the LED. The LED should have a positive and a negative end. If you are using a drain button without LED, simply short the two pads labelled “LED”.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jazlab/JuiceBox/main/Images/7.JPEG" height="200">
+  <img src="https://raw.githubusercontent.com/jazlab/JuiceBox/main/Images/7.JPEG" height="50%">
 </p>
 
 9.  Solder a DC power male plug to the solenoid valve wires.
     - The valve is symmetric, so it does not matter which wire gets connected to which end of the power plug.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jazlab/JuiceBox/main/Images/8.JPEG" height="200">
+  <img src="https://raw.githubusercontent.com/jazlab/JuiceBox/main/Images/8.JPEG" height="50%">
 </p>
 
 10. Set the desired drain duration and mode on the timer relay module:
@@ -152,7 +152,7 @@ The table below lists all the tools and supplies you’ll need to build a JuiceB
 13. Secure the solenoid valve onto the control box with 4-40 screws. You can mount the valve either upright or upside down.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jazlab/JuiceBox/main/Images/9.JPEG" height="200">
+  <img src="https://raw.githubusercontent.com/jazlab/JuiceBox/main/Images/9.JPEG" height="50%">
 </p>
 
 ### 2. Mount the control box and bottle holder
