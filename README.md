@@ -121,8 +121,9 @@ The table below lists all the tools and supplies you’ll need to build a JuiceB
     - 2x BNC female connectors
     - 1x push button
 8. Solder the other end of the wires onto the corresponding pads on the PCB board.
-   - The DC power jack is asymmetric — make sure to solder the positive end to “24V” and the negative end to “GND.” For the example product given above, the longer tail corresponds to GND.
-    - If you are using a push button with LED, make sure to differentiate the wires for the button and the wires for the LED. The LED should have a positive and a negative end. If you are using a drain button without LED, simply short the two pads labelled “LED”.
+   - For the DC power jack, make sure to solder the positive pin to the “24V” vial and the ground pin to the “GND” vial. For the example product linked above, the longer pin is the ground pin.
+    - For the "Auto" BNC, solder the signal (center) pin to the "Signal" vial and the ground (peripheral) pin to the "GND" vial.
+    - If you are using a push button with LED, make sure to differentiate the wires for the button and the wires for the LED. The LED should have a positive and a negative end. If you are using a drain button without LED, simply short the two pads labelled “LED.”
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/jazlab/JuiceBox/main/Images/7.JPEG" width="50%">
