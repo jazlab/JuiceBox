@@ -1,15 +1,15 @@
 # :beverage_box:JuiceBox: a liquid reward delivery system
 
-JuiceBox is a liquid reward delivery system designed specifically for animal research. The JuiceBox system consists of:
+JuiceBox is a liquid reward delivery system designed for animal training and experiments. The system consists of:
 
 1. A control box, which:
-    - controls a solenoid valve via computer (auto) and manual inputs,
-    - has a timed-draining function which opens the valve for a set duration, and
-    - features mounting holes for the valve and a tube holder.
+    - allows for valve control via computer (auto) and manual inputs,
+    - features timed-draining for safe and convenient cleaning, and
+    - includes mounting holes for the valve and a tube holder.
 2. A bottle holder, which:
-    - holds the juice bottle securely in place,
-    - enables easy bottle removal, and
-    - features a tube holder to keep your hands free.
+    - securely holds the juice bottle in place,
+    - allows for quick and easy bottle removal, and
+    - includes a tube holder to keep your hands free.
 
 ![Cover photo](Images/juicebox-cover-photo.png)
 
@@ -121,8 +121,8 @@ The table below lists all the tools and supplies you’ll need to build a JuiceB
     - 2x BNC female connectors
     - 1x push button
 8. Solder the other end of the wires onto the corresponding pads on the PCB board.
-   - For the DC power jack, make sure to solder the positive pin to the “24V” vial and the ground pin to the “GND” vial. For the example product linked above, the longer pin is the ground pin.
-    - For the "Auto" BNC, solder the signal (center) pin to the "Signal" vial and the ground (peripheral) pin to the "GND" vial.
+   - For the DC power jack, make sure to solder the positive pin to the “24V” pad and the ground pin to the “GND” pad. For the example product linked above, the longer pin is the ground pin.
+    - For the "Auto" BNC, solder the signal (center) pin to the "Signal" pad and the ground (peripheral) pin to the "GND" pad.
     - If you are using a push button with LED, make sure to differentiate the wires for the button and the wires for the LED. The LED should have a positive and a negative end. If you are using a drain button without LED, simply short the two pads labelled “LED.”
 
 <p align="center">
